@@ -1,0 +1,22 @@
+.Card{
+    width:25%;
+    display : flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+
+p, h2{
+    padding-left: 15px;
+    margin-top: 4px;
+}
+
+
+
+img{
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
