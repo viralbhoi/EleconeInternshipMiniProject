@@ -9,7 +9,7 @@ const SearchBox = ({setweatherInfo}) => {
     const [city, setCity] = useState("");
 
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "429dd047c109a3fb37c9ff9d7b5b2a34";
+    const API_KEY = "Your API KEY";
 
     let getWeatherInfo = async () => {
         let res = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}&units=metric`)
