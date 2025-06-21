@@ -1,5 +1,5 @@
 const BASE_URL = 'https://stock.indianapi.in';
-const API_KEY = 'sk-live-EwaxxsFtE4vHWhQFakrXdEa6CaCNdGdmUhWVl3mV';
+const API_KEY = 'Add YOUR API KEY';
 
 const headers = {
   'X-Api-Key': API_KEY,
